@@ -1,0 +1,2 @@
+Route::get('/Join-us','storeControllers\fileController@index')->name('store.join-us');
+Route::post('/Join-us','storeControllers\fileController@store')->name('store.join-us');
